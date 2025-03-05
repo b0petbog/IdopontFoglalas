@@ -1,0 +1,32 @@
+{
+  "foglalasok": [
+    {
+      "id": "1",
+      "nap": "hétfő",
+      "idopont": "12:00",
+      "nev": "Kis János",
+      "telefonszam": "+36306532905"
+    },
+    {
+      "id": "2",
+      "nap": "kedd",
+      "idopont": "13:00",
+      "nev": "Mészáros Abigél",
+      "telefonszam": "+36708876305"
+    },
+    {
+      "id": "3",
+      "nap": "szerda",
+      "idopont": "14:00",
+      "nev": "Vízöntő Ödön",
+      "telefonszam": "+36907653487"
+    },
+    {
+      "id": "4",
+      "nap": "csütörtök",
+      "idopont": "15:00",
+      "nev": "Asztalos Erika",
+      "telefonszam": "+36703905624"
+    }
+  ]
+}
