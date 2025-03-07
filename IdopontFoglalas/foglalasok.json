@@ -2,31 +2,317 @@
   "foglalasok": [
     {
       "id": "1",
-      "nap": "hétfő",
-      "idopont": "12:00",
+      "idopontid": 5,
       "nev": "Kis János",
       "telefonszam": "+36306532905"
     },
     {
       "id": "2",
-      "nap": "kedd",
-      "idopont": "13:00",
+      "idopontid": 15,
       "nev": "Mészáros Abigél",
       "telefonszam": "+36708876305"
     },
     {
       "id": "3",
-      "nap": "szerda",
-      "idopont": "14:00",
+      "idopontid": 25,
       "nev": "Vízöntő Ödön",
       "telefonszam": "+36907653487"
     },
     {
       "id": "4",
-      "nap": "csütörtök",
-      "idopont": "15:00",
+      "idopontid": 35,
       "nev": "Asztalos Erika",
       "telefonszam": "+36703905624"
+    },
+    {
+      "id": "8494",
+      "idopontid": "2",
+      "nev": "cdbnsc",
+      "telefonszam": "v gsd b"
+    },
+    {
+      "id": "e1e0",
+      "idopontid": "3",
+      "nev": "cdbnsc",
+      "telefonszam": "v gsd b"
+    }
+  ],
+  "idopontok": [
+    {
+      "id": "0",
+      "nap": "hétfő",
+      "ido": "7:00",
+      "statusz": "foglalt"
+    },
+    {
+      "id": "1",
+      "nap": "hétfő",
+      "ido": "8:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "2",
+      "nap": "hétfő",
+      "ido": "9:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "3",
+      "nap": "hétfő",
+      "ido": "10:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "4",
+      "nap": "hétfő",
+      "ido": "11:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "5",
+      "nap": "hétfő",
+      "ido": "12:00",
+      "statusz": "foglalt"
+    },
+    {
+      "id": "6",
+      "nap": "hétfő",
+      "ido": "13:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "7",
+      "nap": "hétfő",
+      "ido": "14:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "8",
+      "nap": "hétfő",
+      "ido": "15:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "9",
+      "nap": "hétfő",
+      "ido": "16:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "10",
+      "nap": "kedd",
+      "ido": "8:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "11",
+      "nap": "kedd",
+      "ido": "9:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "12",
+      "nap": "kedd",
+      "ido": "10:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "13",
+      "nap": "kedd",
+      "ido": "11:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "14",
+      "nap": "kedd",
+      "ido": "12:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "15",
+      "nap": "kedd",
+      "ido": "13:00",
+      "statusz": "foglalt"
+    },
+    {
+      "id": "16",
+      "nap": "kedd",
+      "ido": "14:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "17",
+      "nap": "kedd",
+      "ido": "15:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "18",
+      "nap": "kedd",
+      "ido": "16:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "19",
+      "nap": "szerda",
+      "ido": "8:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "20",
+      "nap": "mama",
+      "ido": "9:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "21",
+      "nap": "szerda",
+      "ido": "10:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "22",
+      "nap": "szerda",
+      "ido": "11:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "23",
+      "nap": "szerda",
+      "ido": "12:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "24",
+      "nap": "szerda",
+      "ido": "13:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "25",
+      "nap": "szerda",
+      "ido": "14:00",
+      "statusz": "foglalt"
+    },
+    {
+      "id": "26",
+      "nap": "szerda",
+      "ido": "15:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "27",
+      "nap": "szerda",
+      "ido": "16:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "28",
+      "nap": "csütörtök",
+      "ido": "8:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "29",
+      "nap": "csütörtök",
+      "ido": "9:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "30",
+      "nap": "csütörtök",
+      "ido": "10:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "31",
+      "nap": "csütörtök",
+      "ido": "11:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "32",
+      "nap": "csütörtök",
+      "ido": "12:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "33",
+      "nap": "csütörtök",
+      "ido": "13:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "34",
+      "nap": "csütörtök",
+      "ido": "14:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "35",
+      "nap": "csütörtök",
+      "ido": "15:00",
+      "statusz": "foglalt"
+    },
+    {
+      "id": "36",
+      "nap": "csütörtök",
+      "ido": "16:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "37",
+      "nap": "péntek",
+      "ido": "8:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "38",
+      "nap": "péntek",
+      "ido": "9:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "39",
+      "nap": "péntek",
+      "ido": "10:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "40",
+      "nap": "péntek",
+      "ido": "11:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "41",
+      "nap": "péntek",
+      "ido": "12:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "42",
+      "nap": "péntek",
+      "ido": "13:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "43",
+      "nap": "péntek",
+      "ido": "14:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "44",
+      "nap": "péntek",
+      "ido": "15:00",
+      "statusz": "szabad"
+    },
+    {
+      "id": "45",
+      "nap": "péntek",
+      "ido": "16:00",
+      "statusz": "szabad"
     }
   ]
 }

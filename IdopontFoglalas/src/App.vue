@@ -6,7 +6,8 @@ import { useFoglalasokStore } from './stores/foglalasok'
 const foglalasokStore = useFoglalasokStore()
 
 onMounted(() =>{
-  foglalasokStore.loadAll()
+  foglalasokStore.loadAllAppointment()
+  foglalasokStore.loadAllTime()
 })
 
 </script>
@@ -14,8 +15,8 @@ onMounted(() =>{
 <template>
       <div class="container">
         <nav class="text-center">
-          <RouterLink class="btn btn-outline-success m-2" to="/">Foglalt időpontok</RouterLink>
-          <RouterLink class="btn btn-outline-success m-2" to="/ujFoglalas">Új időpont foglalás</RouterLink>
+          <RouterLink class="btn btn-outline-danger m-2" to="/">Foglalt időpontok</RouterLink>
+          <RouterLink class="btn btn-outline-danger m-2" to="/ujFoglalas">Új időpont foglalás</RouterLink>
         </nav>
           <RouterView />
       </div>

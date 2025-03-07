@@ -1,15 +1,17 @@
 <template>
   <h1 class="text-center">Foglalt időpontok</h1>
   <form class="w-50 mx-auto" @submit.prevent="foglalasok.foglalasMentese(ujFoglalas)">
-      <label for="nap">Foglalni kíván nap</label>
-      <input id="nap" class="form-control mb-2" type="text" v-model="ujFoglalas.nap" placeholder="Hétfő">
-      <label for="ido">Foglalni kíván nap</label>
-      <input id="ido" class="form-control mb-2" type="text" v-model="ujFoglalas.idopont" placeholder="8:00">
+      <label for="nap">Foglalni kíván időpont</label>
+      <select class="form-select mt-3" v-model="ujFoglalas.idopontid">
+        <option v-for="(idopont, index) in szabadidopontok" :key="idopont.id" :value="idopont.id">
+        {{ idopont.nap }} {{ idopont.ido }}
+      </option>
+      </select>
       <label for="nev">Név</label>
       <input id="nev" class="form-control mb-2" type="text" v-model="ujFoglalas.nev" placeholder="Pl Nagy József">
       <label for="tszam">Telefonszám</label>
       <input id="tszam" class="form-control mb-2" type="text" v-model="ujFoglalas.telefonszam" placeholder="Pl +36303905724">
-      <input class="btn btn-success" type="submit" value="Mentés">
+      <input class="btn btn-danger" type="submit" value="Mentés" :disabled='ujFoglalas.idopontid=="" || ujFoglalas.nev=="" || ujFoglalas.telefonszam==""'>
   </form>
 </template>
 
@@ -17,11 +19,12 @@
   import {ref} from 'vue'
   import { useFoglalasokStore } from '@/stores/foglalasok' 
   const foglalasok = useFoglalasokStore()
+  const idopontok = foglalasok.idopontok
   const ujFoglalas = ref({       
-          "nap": "",
-          "idopont": "",
+          "idopontid": "",
           "nev": "",
           "telefonszam": ""})
-  
+  const szabadidopontok = ref([])
+  szabadidopontok.value = idopontok.filter(item => item.statusz === "szabad")
 </script>
 <style></style>
