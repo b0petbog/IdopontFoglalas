@@ -35,6 +35,18 @@
       "idopontid": "3",
       "nev": "cdbnsc",
       "telefonszam": "v gsd b"
+    },
+    {
+      "id": "b428",
+      "idopontid": "34",
+      "nev": "cdbnsc",
+      "telefonszam": "v gsd b"
+    },
+    {
+      "id": "2122",
+      "idopontid": "2",
+      "nev": "cdbnsc",
+      "telefonszam": "06303905723"
     }
   ],
   "idopontok": [
@@ -160,7 +172,7 @@
     },
     {
       "id": "20",
-      "nap": "mama",
+      "nap": "szerda",
       "ido": "9:00",
       "statusz": "szabad"
     },

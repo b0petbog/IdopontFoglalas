@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-center">Foglalt időpontok</h1>
+  <h1 class="text-center">Időpont foglalás</h1>
   <form class="w-50 mx-auto" @submit.prevent="foglalasok.foglalasMentese(ujFoglalas)">
       <label for="nap">Foglalni kíván időpont</label>
       <select class="form-select mt-3" v-model="ujFoglalas.idopontid">
@@ -26,5 +26,6 @@
           "telefonszam": ""})
   const szabadidopontok = ref([])
   szabadidopontok.value = idopontok.filter(item => item.statusz === "szabad")
+
 </script>
 <style></style>
