@@ -25,28 +25,28 @@
       "telefonszam": "+36703905624"
     },
     {
-      "id": "8494",
-      "idopontid": "2",
-      "nev": "cdbnsc",
-      "telefonszam": "v gsd b"
+      "id": "5",
+      "idopontid": "1",
+      "nev": "Szántó István",
+      "telefonszam": "+36704905443"
     },
     {
-      "id": "e1e0",
+      "id": "f0e9",
       "idopontid": "3",
-      "nev": "cdbnsc",
-      "telefonszam": "v gsd b"
+      "nev": "Kis Balázs",
+      "telefonszam": "+36304965553"
     },
     {
-      "id": "b428",
-      "idopontid": "34",
-      "nev": "cdbnsc",
-      "telefonszam": "v gsd b"
+      "id": "0c5c",
+      "idopontid": "12",
+      "nev": "Solti Mária",
+      "telefonszam": "+36309638986"
     },
     {
-      "id": "2122",
-      "idopontid": "2",
-      "nev": "cdbnsc",
-      "telefonszam": "06303905723"
+      "id": "4043",
+      "idopontid": "15",
+      "nev": "Molnár Piroska",
+      "telefonszam": "+36309638986"
     }
   ],
   "idopontok": [
@@ -60,7 +60,7 @@
       "id": "1",
       "nap": "hétfő",
       "ido": "8:00",
-      "statusz": "szabad"
+      "statusz": "foglalt"
     },
     {
       "id": "2",
@@ -72,7 +72,7 @@
       "id": "3",
       "nap": "hétfő",
       "ido": "10:00",
-      "statusz": "szabad"
+      "statusz": "foglalt"
     },
     {
       "id": "4",
@@ -126,7 +126,7 @@
       "id": "12",
       "nap": "kedd",
       "ido": "10:00",
-      "statusz": "szabad"
+      "statusz": "foglalt"
     },
     {
       "id": "13",

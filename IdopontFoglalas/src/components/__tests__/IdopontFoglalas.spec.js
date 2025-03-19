@@ -18,7 +18,7 @@ vi.mock('@/stores/foglalasok', () => ({
     ],
     foglalasMentese: vi.fn((foglalas) => {
       if (!foglalas.idopontid || !foglalas.nev || !foglalas.telefonszam) {
-        toast.error("Hiba")
+        toast.error("Hiba a foglalás mentésekor")
       } else {
         toast.success("Sikeres foglalás")
       }
@@ -33,12 +33,12 @@ describe('Foglalások', () => {
 
   it('Tartalom ellenőrzése a kezdő oldalon', () => {
     const wrapper = mount(IdopontFoglalasok)
-    expect(wrapper.text()).toContain('Foglalt időpontok')
+    expect(wrapper.text()).toContain('A tetováló szalon foglalt időpontjai')
   })
 
   it('Tartalom ellenőrzése a foglalás oldalon', () => {
     const wrapper = mount(IdopontFoglalas)
-    expect(wrapper.text()).toContain('Időpont foglalás')
+    expect(wrapper.text()).toContain('Időpont foglalás a tetováló szalonba')
   })
 
   it('Hozzáadja az új foglalást?', () => {
@@ -54,6 +54,6 @@ describe('Foglalások', () => {
   it('Hibát ad ha rossz a foglalás?', () => {
     const foglalasok = useFoglalasokStore()
     foglalasok.foglalasMentese({})
-    expect(toast.error).toHaveBeenCalledWith("Hiba")
+    expect(toast.error).toHaveBeenCalledWith("Hiba a foglalás mentésekor")
   })
 })

@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-center">Időpont foglalás</h1>
+  <h1 class="text-center">Időpont foglalás a tetováló szalonba</h1>
   <form class="w-50 mx-auto" @submit.prevent="foglalasok.foglalasMentese(ujFoglalas)">
       <label for="nap">Foglalni kíván időpont</label>
       <select class="form-select mt-3" v-model="ujFoglalas.idopontid">
@@ -11,7 +11,7 @@
       <input id="nev" class="form-control mb-2" type="text" v-model="ujFoglalas.nev" placeholder="Pl Nagy József">
       <label for="tszam">Telefonszám</label>
       <input id="tszam" class="form-control mb-2" type="text" v-model="ujFoglalas.telefonszam" placeholder="Pl +36303905724">
-      <input class="btn btn-danger" type="submit" value="Mentés" :disabled='ujFoglalas.idopontid=="" || ujFoglalas.nev=="" || ujFoglalas.telefonszam==""'>
+      <input class="btn btn-primary" type="submit" value="Mentés" :disabled='ujFoglalas.idopontid=="" || ujFoglalas.nev=="" || ujFoglalas.telefonszam==""'>
   </form>
 </template>
 
